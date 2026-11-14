@@ -1,0 +1,31 @@
+Package: SARAR
+Type: Package
+Title: Bayesian Estimation of Spatial Autoregressive Models with
+        Flexible Error Distributions
+Version: 0.1.0
+Authors@R: c(person("Luis Hernando","Vanegas",role=c("aut","cre"),email="lhvanegasp@unal.edu.co"),
+             person("Luz Marina","Rondón",role="aut",email="lmrondonp@unal.edu.co"))
+Author: Luis Hernando Vanegas [aut, cre],
+  Luz Marina Rondón [aut]
+Maintainer: Luis Hernando Vanegas <lhvanegasp@unal.edu.co>
+Description: Provides Bayesian estimation and inference for spatial
+    autoregressive models with spatial dependence in both the response
+    variable and the error terms. The models accommodate Gaussian,
+    Student-t, Laplace, skew-normal, and skew-Student-t error
+    distributions. Posterior inference is performed using Markov chain
+    Monte Carlo methods. The package also provides posterior summaries,
+    convergence diagnostics, residual analysis, and model comparison
+    criteria, including the Deviance Information Criterion (DIC) and
+    the Watanabe-Akaike Information Criterion (WAIC).  See LeSage and Pace (2009, ISBN:9781420064247),
+    "Introduction to Spatial Econometrics". 
+Imports: Formula, coda, statmod, spdep
+License: GPL (>= 3)
+BugReports: https://github.com/lhvanegasp/SARAR/issues
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
+Depends: R (>= 3.5)
+NeedsCompilation: no
+Packaged: 2026-10-29 14:58:34 UTC; 57312
+Repository: CRAN
+Date/Publication: 2026-11-14 08:20:54 UTC
